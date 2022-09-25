@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Online Shopping Cart</title>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+        
+        nav{
+            width: 100%;
+            background-color: rgb(39,39,39);
+            overflow: auto;
+            height: auto;
+        }
+        .links{
+            display: inline-block;
+            text-align: center;
+            padding: 14px;
+            color: rgb(137, 243, 253);
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .links:hover{
+            background-color: rgb(174, 45, 45);
+        }
+        .selected{
+            background-color: rgb(0,18,43);
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+        }
+
+        #ull{
+            list-style-type: none;
+        }
+        #lil{
+            float: left;
+            padding: 10px;
+        }
+        div{
+            background-color: rgb(211, 39, 199);
+            width: 250px;
+            height: 500px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            padding-top: 2px;
+        }
+        h4{
+            color: white;
+            font-size: 25px;
+            background-color: rgb(43, 107, 226);
+            padding: 10px;
+        }
+        h3{
+            margin-left: 40px;
+            margin-top: 0px;
+            font-size: 28px;
+            margin-bottom: 2px;
+            margin-top: 1px;      
+
+        }
+        input{
+            width: 200px;
+            height: 40px;
+            margin-left: 25px;
+            margin-top: 1px;
+            border-radius: 10px;
+            border: 1px solid white;
+            font-size: 20px;
+            padding: 2px;
+            padding-left: 10px;
+            cursor: pointer;
+        }
+        input:hover{
+            border: 1px solid black;
+        }
+        #ul2{
+            list-style-type: none;
+            padding-bottom: 30px;
+            padding-top: 20px;
+            margin-left: 0px;
+
+        }
+        #li2{
+            display: inline;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            background-color: blue;
+            padding: 5px;
+
+        }
+        a:hover{
+            background-color: red;
+            color: white;
+        }
+        h1{
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+
+      </style>
+   </head>  
+   <body>
+    <div class="header">
+     <h1> Onling Shopping Features Products</h1>
+    </div>
+    <nav>
+    <a class="links selected" href="#"> Home</a>
+    <a class="links" href="#"> Login</a>
+    <a class="links" href="#"> Register</a>
+    <a class="links" href="#"> Contact Us</a>
+    <a class="links" href="#">More Info</a>
+    </nav>
+    <main>
+    
+      <ul id="ull">
+         <li id="lil">
+            <div>
+            <h4>VIVO MOBILE</h4>
+            <img src="vivo.png.png">
+            <h3>$400(10% off)</h3>
+            <input type="text" placeholder="Quality">
+            <ul id="ul2">
+                <li id="li2"><a href="#">Add To Cart</a></li>
+                <li><a href="#">Buy Now</a></li>
+            </ul>
+        </div>
+        </li>
+         
+        <li id="lil">
+            <div>
+         <h4>VIVO MOBILE</h4>
+         <img src="vevo.png">
+         <h3>$300(10% off)</h3>
+         <input type="text" placeholder="Quality">
+         <ul id="ul2" >
+             <li id="li2"><a href="#">Add To Cart</a></li>
+             <li><a href="#">Buy Now</a></li>
+         </ul>
+        </div>
+        </li>
+
+        <li id="lil">
+            <div>
+         <h4>VIVO MOBILE</h4>
+         <img src="vivox21.png">
+         <h3>$200(10% off)</h3>
+         <input type="text" placeholder="Quality">
+         <ul id="ul2" >
+             <li id="li2" ><a href="#">Add To Cart</a></li>
+             <li><a href="#">Buy Now</a></li>
+         </ul>
+        </div>
+        </li>
+
+        <li id="lil">
+            <div>
+        <h4>VIVO MOBILE</h4>
+        <img src="vevoy83.png">
+        <h3>$320(10% off)</h3>
+        <input type="text" placeholder="Quality">
+        <ul id="ul2" >
+            <li><a href="#">Add To Cart</a></li>
+            <li><a href="#">Buy Now</a></li>
+        </ul>
+    </div>
+    </li>
+
+    <li id="lil">
+        <div>
+        <h4>VIVO MOBILE</h4>
+        <img src="vevo1.png">
+        <h3>$350(10% off)</h3>
+        <input type="text" placeholder="Quality">
+        <ul>
+            <li id="li2"><a href="#">Add To Cart</a></li>
+            <li><a href="#">Buy Now</a></li>
+        </ul>
+    </div>
+    </li>
+    <li id="lil">
+        <div>
+        <h4>VIVO MOBILE</h4>
+        <img src="Tab.png">
+        <h3>$250(10% off)</h3>
+        <input type="text" placeholder="Quality">
+        <ul id="ul2">
+            <li id="li2" ><a href="#">Add To Cart</a></li>
+            <li><a href="#">Buy Now</a></li>
+        </ul>
+    </div>
+    </li>
+    <li id="lil">
+        <div>
+        <h4>VIVO MOBILE</h4>
+        <img src="TAb2.png">
+        <h3>$325(10% off)</h3>
+        <input type="text" placeholder="Quality">
+        <ul>
+            <li id="li2"><a href="#">Add To Cart</a></li>
+            <li><a href="#">Buy Now</a></li>
+        </ul>
+    </div>
+</li>
+
+    <li id="lil">
+        <div>
+    <h4>HP LAPTOP</h4>
+    <img src="laptop.png">
+    <h3>$500(10% off)</h3>
+    <input type="text" placeholder="Quality">
+    <ul id="ul2">
+        <li id="li2" ><a href="#">Add To Cart</a></li>
+        <li><a href="#">Buy Now</a></li>
+    </ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4>Fitness Watch</h4>
+<img src="fitness.png">
+<h3>$400(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2" >
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4>Smart Watch</h4>
+<img src="smart watch.png">
+<h3>$450(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4>Headphones</h4>
+<img src="headphone.png">
+<h3>$600(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2"><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>   
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4>Dell Laptop</h4>
+<img src="dell laptop.png">
+<h3>$100(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2"><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4>Leneo Laptop</h4>
+<img src="lenevolaptop.png">
+<h3>$100(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2" >
+    <li id="li2"><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+ <h4>VIVO MOBILE</h4>
+ <img src="vevo.png">
+ <h3>$300(10% off)</h3>
+ <input type="text" placeholder="Quality">
+ <ul id="ul2">
+     <li id="li2" ><a href="#">Add To Cart</a></li>
+     <li><a href="#">Buy Now</a></li>
+ </ul>
+</div>
+</li>
+
+<li id="lil">
+    <div>
+ <h4>VIVO MOBILE</h4>
+ <img src="vivox21.png">
+ <h3>$200(10% off)</h3>
+ <input type="text" placeholder="Quality">
+ <ul id="ul2" >
+     <li id="li2" ><a href="#">Add To Cart</a></li>
+     <li><a href="#">Buy Now</a></li>
+ </ul>
+</div>
+</li>
+
+<li id="lil">
+    <div>
+<h4>VIVO MOBILE</h4>
+<img src="vevoy83.png">
+<h3>$150(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2"><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+
+<li id="lil">
+<div>
+<h4>VIVO MOBILE</h4>
+<img src="vevo1.png">
+<h3>$100(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2" >
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+<div>
+<h4>VIVO MOBILE</h4>
+<img src="Tab.png">
+<h3>$200(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2"><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+<div>
+<h4>VIVO MOBILE</h4>
+<img src="TAb2.png">
+<h3>$100(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2" >
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4>Apple Laptop</h4>
+<img src="applelaptop.png">
+<h3>$600(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4> Branded watch</h4>
+<img src="branded watch.png">
+<h3>$300(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4>Stop watch</h4>
+<img src="stopwatch.png">
+<h3>$150(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2" >
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+<h4>Headphones</h4>
+<img src="headphone1.png">
+<h3>$120(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+    <div>
+ <h4>VIVO MOBILE</h4>
+ <img src="vevo.png">
+ <h3>$300(10% off)</h3>
+ <input type="text" placeholder="Quality">
+ <ul id="ul2" >
+     <li id="li2"><a href="#">Add To Cart</a></li>
+     <li><a href="#">Buy Now</a></li>
+ </ul>
+</div>
+</li>
+
+<li id="lil">
+    <div>
+ <h4>VIVO MOBILE</h4>
+ <img src="vivox21.png">
+ <h3>$350(10% off)</h3>
+ <input type="text" placeholder="Quality">
+ <ul id="ul2" >
+     <li id="li2" ><a href="#">Add To Cart</a></li>
+     <li><a href="#">Buy Now</a></li>
+ </ul>
+</div>
+</li>
+
+<li id="lil">
+    <div>
+<h4>VIVO MOBILE</h4>
+<img src="vevoy83.png">
+<h3>$320(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2" >
+    <li id="li2" ><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+
+<li id="lil">
+<div>
+<h4>VIVO MOBILE</h4>
+<img src="vevo1.png">
+<h3>$300(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2">
+    <li id="li2"><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+<div>
+<h4>VIVO MOBILE</h4>
+<img src="Tab.png">
+<h3>$320(10% off)</h3>
+<input type="text" placeholder="Quality">
+<ul id="ul2" >
+    <li id="li2"><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+<li id="lil">
+<div>
+<h4>VIVO MOBILE</h4>
+<img src="TAb2.png">
+<h3>$300(10% off)</h3>
+<ul id="ul2">
+<input type="text" placeholder="Quality">
+<ul id="ul2" >
+    <li id="li2"><a href="#">Add To Cart</a></li>
+    <li><a href="#">Buy Now</a></li>
+</ul>
+</div>
+</li>
+
+      
+   </body>
+</html>
